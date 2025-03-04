@@ -1,0 +1,45 @@
+------Single-Product Inventory System------
+
+Initial inventory level: 60 items
+
+Number of demand sizes: 4
+
+Distribution function of demand sizes: 0.17 0.50 0.83 1.00 
+
+Mean inter-demand time: 0.10 months
+
+Delivery lag range: 0.50 to 1.00 months
+
+Length of simulation: 120 months
+
+Costs:
+K = 32.00
+i = 3.00
+h = 1.00
+pi = 10.00
+
+Number of policies: 9
+
+Policies:
+--------------------------------------------------------------------------------------------------
+ Policy        Avg_total_cost     Avg_ordering_cost      Avg_holding_cost     Avg_shortage_cost
+--------------------------------------------------------------------------------------------------
+
+
+( 20, 40)              148.48              100.67                9.06               38.76
+
+( 20, 60)              128.76               87.55               17.66               23.55
+
+( 20, 80)              124.47               80.78               28.46               15.23
+
+( 20,100)              136.20               85.35               37.50               13.35
+
+( 40, 60)              130.87              101.47               24.96                4.43
+
+( 40, 80)              128.10               90.84               34.97                2.29
+
+( 40,100)              136.55               89.56               42.50                4.50
+
+( 60, 80)              142.16               97.03               44.85                0.29
+
+( 60,100)              145.43               88.18               57.21                0.03
